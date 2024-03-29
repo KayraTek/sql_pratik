@@ -65,8 +65,8 @@ maas int
 -- SORU : Ogretmenler tablosuna veri girisi yapalim.
 
 insert into ogretmenler values('Kayra','Turkce','Lisans',12345687911,15000);
-insert into ogretmenler values('Gokan','Matematik','On Lisans',852456963327,25000);
-insert into ogretmenler values('Ilayda','Ingilizce','Yuksek Lisans',14785236980,23000);
+insert into ogretmenler values('Ahmet','Matematik','On Lisans',852456963327,25000);
+insert into ogretmenler values('Mehmet','Ingilizce','Yuksek Lisans',14785236980,23000);
 
 
 -- SORU : Ogretmenler tablosundaki verileri listeleyelim.
@@ -105,13 +105,13 @@ adres varchar(100),
 sinav_notu int
 );
 
-insert into ogrenciler values(120,'Ali Can', 'Ankara',75);
-insert into ogrenciler values(121,'Veli Mert', 'Trabzon',85);
-insert into ogrenciler values(122,'Ayse Tan', 'Bursa',65);
-insert into ogrenciler values(123,'Derya Soylu', 'Istanbul',95);
-insert into ogrenciler values(124,'Yavuz Bal', 'Ankara',85);
-insert into ogrenciler values(125,'Emre Gul', 'Hatay',90);
-insert into ogrenciler values(126,'Harun Resit', 'Isparta',100);
+insert into ogrenciler values(120,'Salim Can', 'Ankara',75);
+insert into ogrenciler values(121,'Erdoğan Aksoy', 'Trabzon',85);
+insert into ogrenciler values(122,'Ömer Çakır', 'Bursa',65);
+insert into ogrenciler values(123,'Asaf Soylu', 'Istanbul',95);
+insert into ogrenciler values(124,'Kerem Kılıç', 'Ankara',85);
+insert into ogrenciler values(125,'Goksel Gul', 'Hatay',90);
+insert into ogrenciler values(126,'Harun Mert', 'Isparta',100);
 
 -- SORU1 : Ogrenciler tablosundaki tum sutunlarindaki verileri listeleyin.
 

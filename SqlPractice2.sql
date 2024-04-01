@@ -106,5 +106,6 @@ select * from doktor_bilgi
 -- SORU : Eskisehir Hastanesinde calisan 30 yas ustundekileri yazdiralim.
 
 select * from doktor_bilgi where hastane_bilgi ='Eskisehir Hastanesi' and doktor_yasi>30
+select * from doktor_bilgi
 
 
